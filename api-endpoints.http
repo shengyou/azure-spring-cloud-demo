@@ -1,0 +1,31 @@
+###
+# Local Product (products)
+GET http://localhost:8080/products
+
+###
+# Populate database
+GET http://localhost:8080/products/populate
+
+###
+# Product (products)
+GET https://online-store-product-service.azuremicroservices.io/products
+
+###
+# Product (message)
+GET https://online-store-product-service.azuremicroservices.io/products/message
+
+###
+# Cart (message)
+GET https://online-store-cart-service.azuremicroservices.io/cart
+
+###
+# Cart (random)
+GET https://online-store-cart-service.azuremicroservices.io/random
+
+###
+# Gateway (product service)
+GET https://online-store-gateway-service.azuremicroservices.io/PRODUCT-SERVICE/products
+
+###
+# Gateway (cart service)
+GET https://online-store-gateway-service.azuremicroservices.io/CART-SERVICE/cart
