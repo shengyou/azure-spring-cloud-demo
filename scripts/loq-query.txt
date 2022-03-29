@@ -1,0 +1,6 @@
+# Log Query
+AppPlatformLogsforSpring
+| where AppName == "product-service"
+| project TimeGenerated, Log
+| order by TimeGenerated desc
+| limit 50
