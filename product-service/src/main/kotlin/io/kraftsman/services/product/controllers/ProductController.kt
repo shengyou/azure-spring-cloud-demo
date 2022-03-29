@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Qualifier
 import org.springframework.web.bind.annotation.*
 
 @RestController
-@RequestMapping("/api/v1/products")
+@RequestMapping("/products")
 class ProductController constructor(
     @Qualifier("DbProductService") private val productService: ProductService
 ) {

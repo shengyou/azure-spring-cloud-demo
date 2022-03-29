@@ -14,7 +14,7 @@ class PopulateController constructor(
 
     private val faker = Faker.instance()
 
-    @GetMapping("/api/v1/products/populate")
+    @GetMapping("/products/populate")
     fun index(): Unit {
         repeat(10) {
             productService.create(
