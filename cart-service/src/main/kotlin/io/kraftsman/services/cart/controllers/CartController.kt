@@ -11,12 +11,12 @@ class CartController {
     @Value("\${application.message:Not configured by a Spring Cloud Server}")
     private lateinit var message: String
 
-    @GetMapping("/api/v1/cart")
+    @GetMapping("/cart")
     fun index(): Map<String, String> {
         return mapOf("message" to message)
     }
 
-    @GetMapping("/api/v1/cart/random")
+    @GetMapping("/random")
     fun random(): Map<String, String> {
         val faker = Faker.instance()
 
