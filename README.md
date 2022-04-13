@@ -4,8 +4,8 @@
 
 ## 相關資源
 
-* 簡報檔：
-* 原始碼：
+* 簡報檔：https://www.slideshare.net/shengyou/introduction-to-azure-spring-cloud
+* 原始碼：https://github.com/shengyou/azure-spring-cloud-demo/
 
 ### 警告！
 
